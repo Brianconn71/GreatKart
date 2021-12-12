@@ -1,5 +1,6 @@
-from django.http import HttpResponse
+from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('I am Home')
+    template = 'home.html'
+    return render(request, template)
