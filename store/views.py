@@ -21,3 +21,8 @@ def store(request, category_slug=None):
     }
     template= "store/store.html"
     return render(request, template, context)
+
+
+def product_detail(request, category_slug, product_slug):
+    template = 'store/product_detail.html' 
+    return render(request, template)
