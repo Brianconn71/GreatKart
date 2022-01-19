@@ -1,0 +1,9 @@
+body{
+    background-color: #dfdf54 !important;
+}
+.img-myway{
+    height: 450px !important;
+    width: 100% !important;
+    object-position: top center !important;
+    object-fit: cover !important;
+}
