@@ -447,10 +447,10 @@ p:last-child {
   position: relative;
 }
 .widget-header a {
-  color: #343a40;
+  color: #150E56;
 }
 .widget-header a:hover {
-  color: #3167eb;
+  color: #150E56;
 }
 .widget-header i {
   color: #969696;
@@ -1055,7 +1055,7 @@ a[class*=card]:hover .title {
   text-align: center;
   border-radius: 3rem;
   color: #fff;
-  background-color: #fa3434;
+  background-color: #8FD6E1;
 }
 
 .price {
