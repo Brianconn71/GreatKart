@@ -30,11 +30,8 @@
                 <div class="item-option-select">
                   <h6>Choose Color</h6>
                     <select name="color" class="form-control">
+                      {% for i in single_product.variation_set.all %}
                       <option value="">Choose a color</option>
-                      <option value="black">Black</option>
-                      <option value="red">Red</option>
-                      <option value="blue">Blue</option>
-                      <option value="green">Green</option>
                     </select>
                 </div>
               </div>
