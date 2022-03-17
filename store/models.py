@@ -23,6 +23,11 @@ class Product(models.Model):
         return self.product_name
 
 
+class VariationManager(models.Manager):
+    def colors(self):
+        return super(VariationManager, self).filter(variation_category='color') 
+
+
 variation_category_choices = (
     ('color', 'color'),
     ('size', 'size')
